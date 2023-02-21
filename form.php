@@ -1,65 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="/function.css">
-<title>Ví dụ 2</title>
-<style>
-    form{
-        background-color: rgb(43, 161, 182);
-        width: 400px;
-        text-align:center;
-        margin-left:auto ;
-        margin-right: auto;
-    }
-    .submit{
-        border-radius: 10px;
-        width: 50px;
-        border:none;
-    }
-    .submit:hover{
-        background-color: rgb(194, 181, 39);
-    }
-    .name, .mile{
-        width: 300px;
-        height: 30px;
-    }
-</style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 </head>
 <body>
-    <form method="post" action="">
-        <table>
+<form action="" method="post">
+        <table  >
+        
             <tr>
-                <td>Name:</td>
                 <td>
-                    <input type="text" name="name" class="name" value="<?php echo $_POST["name"] ?>">
+                     LOẠI PHÒNG
+                </td>
+                <td>
+                    <select name="loaiPhong">
+                        <option value="1000">A</option>
+                        <option value="500">B</option>
+                        <option value="200">C</option>
+                        
+                    </select>
                 </td>
             </tr>
             <tr>
-                <td> <br> </td>
-                <td> <br></td>
+                <td>
+                    CHECK-IN
+                </td>
+                <td>
+                    <input type="datetime-local" name="checkin" value="">
+                </td>
             </tr>
             <tr>
-                <td>Kết quả:</td>
-                <td><input type="text" name="mile" class="mile" value="<?php echo display_name($_POST["name"]) ?>"></td>
+                <td>
+                    CHECK-OUT
+                </td>
+                <td>
+                    <input type="date" name="checkout"  value="">
+                </td>
+            </tr>           
+            <tr>
+                <td>
+                    TIỀN ĂN
+                </td>
+                <td>
+                    <input type="text" name="an" value=" ">
+                </td>
             </tr>
             <tr>
-                <td><br> </td>
-                <td><br> </td>
+                <td>
+                    DỊCH VỤ
+                    
+                </td>
+                <td >
+                    <input  type="checkbox" name="giat" value="300 ">GIẶT LÀ 
+                    <input  type="checkbox" name="an" value="500">ĂN SÁNG
+                    <input  type="checkbox" name="tam" value="200 ">TẮM HƠI 
+                </td>
             </tr>
             <tr>
-                <td></td>
-                <td><input type="submit" name="submit" class="submit" value="In"></td>
+                <td colspan="2">
+                    <button id="tinh"  >Tính</button>
+                    <button id="cancel">Cancel</button>
+                </td>
+                 
             </tr>
-        </table>
-    </form>
-<?php
-error_reporting(0);
-function display_name ($name) {
-    echo "Hello " .$name;
-}
-?>
 
+        
+        </table>
+    </form >
 </body>
 </html>
