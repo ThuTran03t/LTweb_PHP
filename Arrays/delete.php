@@ -15,3 +15,14 @@ if(!empty($_GET['id'])){
      
 }
 ?>
+<style>
+.btn{
+        text-decoration: none;
+        background-color: red;
+        color:#fff;
+        padding: auto;
+
+
+    }
+</style>
+   <a href="list.php" class="btn"> Danh sách sinh viên</a> 
