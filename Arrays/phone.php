@@ -35,23 +35,23 @@
             'NỔI BẬT NHẤT'=>array(
                 'sp1'=>array(
                     'img'=>'<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxzN5pIym6f0Q2v4sdS-aeCgsY7ZTisBOY4ubUCJjcGJCEeYLF2l3OAQx9M4N-sbxl1es&usqp=CAU"/>',
-                    'name'=>'Nokia black future',
-                    'Price'=>399090,
+                    'name'=>'Hawei Nova 2i',
+                    'Price'=>34699000,
                 ),
                 'sp2'=>array(
                     'img'=>'<img src="https://p-vn.ipricegroup.com/uploaded_44f3cf4a8d6ec58c0da60512fcde7443.jpg"/>',
-                    'name'=>'hawei nova 2i',
-                    'Price'=>3990900,
+                    'name'=>'Samsung s8',
+                    'Price'=>22099000,
                 ),
                 'sp3'=>array(
                     'img'=>'<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1fIqKePR66rrFifcgp_pIt9K_-fAzETWviQ&usqp=CAU"/>',
-                    'name'=>'Nokia black future',
-                    'Price'=>399090,
+                    'name'=>'Samsung galaxy',
+                    'Price'=>24789000,
                 ),
                 'sp4'=>array(
                     'img'=>'<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqujwrVMtTiJHgDu_cQUTZ36G4SPHdE8VtWA&usqp=CAU"/>',
-                    'name'=>'Nokia black future',
-                    'Price'=>399090,
+                    'name'=>'Readmi v12',
+                    'Price'=>2356700,
                 ),
                
                 ),
@@ -59,23 +59,23 @@
                 'SẢN PHẨM MỚI NHẤT'=>array(
                     'sp01'=>array(
                         'img'=>'<img src="https://static.skyassets.com/contentstack/assets/blt143e20b03d72047e/bltab2d565224fbb987/6319db02937b9657b5f2b803/Carousel_iPhone14_Blue_Placement01-PreOrder.png"/>',
-                        'name'=>'Nokia black future',
-                        'Price'=>399090,
+                        'name'=>'Iphone 11 pro',
+                        'Price'=>32000000,
                     ),
                     'sp02'=>array(
                         'img'=>'<img src="https://p-vn.ipricegroup.com/uploaded_44f3cf4a8d6ec58c0da60512fcde7443.jpg"/>',
                         'name'=>'hawei nova 2i',
-                        'Price'=>3990900,
+                        'Price'=>12389000,
                     ),
                     'sp03'=>array(
                         'img'=>'<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRbGmr-vAHKC_If0DlHAKe_02b7kE7yX0bxA&usqp=CAU"/>',
-                        'name'=>'Nokia black future',
-                        'Price'=>399090,
+                        'name'=>'Iphone X',
+                        'Price'=>3909090,
                     ),
                     'sp04'=>array(
                         'img'=>'<img src="https://www.vodafone.com.au/images/devices/apple/iphone-14-pro-max/iphone-14-pro-max-deep-purple-feature1-m.jpg"/>',
-                        'name'=>'Nokia black future',
-                        'Price'=>399090,
+                        'name'=>'Iphone 13 pro max',
+                        'Price'=>23999000,
                     ),
                     
                 )
