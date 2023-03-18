@@ -11,7 +11,7 @@
         <tr>
             <td bgcolor="#CC0066">
             <?php
-        $file=fopen("tap_tin\sang_thang_nam.txt","r",l);
+        $file=fopen("ToiYeuEm.txt","r",1);
         if (!$file)
         {
             echo "<br> Không thể mở được file này.<br>";
